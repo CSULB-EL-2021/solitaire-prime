@@ -5,7 +5,7 @@
 //  I certify that this program is my own original work. I did not copy any part of this program from
 //  any other source. I further certify that I typed each and every line of code in this program.
 
-#include "Deck.hpp"
+#include "Deck.h"
 
 Deck::Deck(): _position(0)
 {
@@ -55,7 +55,7 @@ void Deck::showDeck()
     for (int i = 0, x = 0; i <= 4 - 1; i++) {
         for (int j = 0; j <= 13 - 1; j++, x++) {
             _cards[x].showCard();
-            cout << "";
+            cout << ", ";
         }
         cout << endl;
     }

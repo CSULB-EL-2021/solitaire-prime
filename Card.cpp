@@ -5,7 +5,7 @@
 //  I certify that this program is my own original work. I did not copy any part of this program from
 //  any other source. I further certify that I typed each and every line of code in this program.
 
-#include "Card.hpp"
+#include "Card.h"
 
 Card::Card(): _r('#'), _s('#')
 {}
@@ -28,6 +28,6 @@ int Card::getValue() const
 
 void Card::showCard() const
 {
-    cout << _r;
-    cout << _s << endl;
+    std::string str{_r, _s};
+    cout << str;
 }

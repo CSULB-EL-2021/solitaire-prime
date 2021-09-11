@@ -5,10 +5,10 @@
 //  I certify that this program is my own original work. I did not copy any part of this program from
 //  any other source. I further certify that I typed each and every line of code in this program.
 
-#ifndef SOLITAIRE_PRIME_DECK_HPP
-#define SOLITAIRE_PRIME_DECK_HPP
+#ifndef SOLITAIRE_PRIME_DECK_H
+#define SOLITAIRE_PRIME_DECK_H
 
-#include "Card.hpp"
+#include "Card.h"
 
 #include <cstdlib>
 #include <iostream>
@@ -36,4 +36,4 @@ class Deck {
 };
 
 
-#endif //SOLITAIRE_PRIME_DECK_HPP
+#endif //SOLITAIRE_PRIME_DECK_H

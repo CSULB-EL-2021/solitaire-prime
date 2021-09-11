@@ -6,8 +6,8 @@
 //  any other source. I further certify that I typed each and every line of code in this program.
 
 
-#ifndef SOLITAIRE_PRIME_CARD_HPP
-#define SOLITAIRE_PRIME_CARD_HPP
+#ifndef SOLITAIRE_PRIME_CARD_H
+#define SOLITAIRE_PRIME_CARD_H
 
 #include <iostream>
 using namespace std;
@@ -27,4 +27,4 @@ class Card {
 };
 
 
-#endif //SOLITAIRE_PRIME_CARD_HPP
+#endif //SOLITAIRE_PRIME_CARD_H
